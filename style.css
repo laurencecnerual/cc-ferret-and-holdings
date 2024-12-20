@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+header, ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+header ul {
+  color: lightgray;
+  width: 40vw;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+div.landing-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.landing-pic img {
+  width: 60vw;
+}
+
+main {
+  background-color: #eeeeee;
+}
+
+div.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+div.card {
+  display: flex;
+  background-color: white;
+  width: 60vw;
+}
+
+div.card img {
+  width: 200px;
+}
+
+footer {
+  background-color: #343434;
+  color: white;
+}
+
+div.all-menus {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.menu-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: lightgray;
+}
+
+footer p {
+  text-align: center;
+  color: lightgray;
+}
