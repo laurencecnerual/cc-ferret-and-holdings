@@ -21,6 +21,9 @@ header {
   background-color: black;
   color: white;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 header ul {
@@ -45,14 +48,39 @@ div.landing-pic {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 div.landing-pic img {
   width: 60vw;
 }
 
+div.landing-pic h2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  width: 100%;
+}
+
+div.landing-pic div.extra-text {
+  position: absolute;
+  bottom: 10%;
+  right: 25%;
+}
+
 main {
   background-color: #eeeeee;
+}
+
+div.extra-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  /* margin-bottom: 32px; */
 }
 
 div.card-container {
