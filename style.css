@@ -55,6 +55,7 @@ div.landing-pic {
 
 div.landing-pic img {
   width: 60vw;
+  padding: 16px;
 }
 
 div.landing-pic h2 {
@@ -80,7 +81,6 @@ div.extra-text {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  /* margin-bottom: 32px; */
 }
 
 div.card-container {
@@ -94,9 +94,31 @@ div.card {
   display: flex;
   background-color: white;
   width: 60vw;
+  margin: 8px;
+  border-radius: 10px;
 }
 
 div.card img {
+  width: 200px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+div.text {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+div.company-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 16px;
+  padding: 16px;
+}
+
+div.company-grid img {
   width: 200px;
 }
 
