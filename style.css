@@ -24,6 +24,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
+  font-size: 0.9rem;
 }
 
 header ul {
@@ -63,8 +64,8 @@ div.landing-pic h2 {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5rem;
-  width: 100%;
+  font-size: 4.5rem;
+  width: 60vw;
 }
 
 div.landing-pic div.extra-text {
@@ -74,7 +75,12 @@ div.landing-pic div.extra-text {
 }
 
 main {
+  padding-top: 24px;
   background-color: #eeeeee;
+}
+
+main h2 {
+  padding-bottom: 12px;
 }
 
 div.extra-text {
@@ -84,6 +90,7 @@ div.extra-text {
 }
 
 div.card-container {
+  padding-top: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,6 +118,15 @@ div.text {
   gap: 16px;
 }
 
+div.text h3 {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+div.company-info {
+  padding-top: 24px;
+}
+
 div.company-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
@@ -125,6 +141,7 @@ div.company-grid img {
 footer {
   background-color: #343434;
   color: white;
+  padding-top: 24px;
 }
 
 div.all-menus {
@@ -133,13 +150,15 @@ div.all-menus {
 }
 
 div.menu-list ul {
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
   color: lightgray;
 }
 
 footer p {
   text-align: center;
   color: lightgray;
+  font-size: 0.8rem;
 }
