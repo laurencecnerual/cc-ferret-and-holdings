@@ -9,12 +9,12 @@ h1, h2, h3, p, ul {
 
 h1 {
   font-size: 1rem;
+  cursor: pointer;
 }
 
 header, ul {
   display: flex;
   justify-content: space-between;
-  padding: 12px 0;
 }
 
 header {
@@ -25,6 +25,7 @@ header {
   top: 0;
   z-index: 10;
   font-size: 0.9rem;
+  padding: 12px 8px;
 }
 
 header ul {
@@ -43,6 +44,34 @@ li {
 
 li:hover {
   text-decoration: underline;
+}
+
+div.search {
+  display: flex;
+}
+
+div.search input {
+  border: 1px solid rgb(100, 100, 100);
+  outline: none;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-size: 0.7rem;
+}
+
+div.search button {
+  background-color: rgb(100, 100, 100);
+  color: white;
+  border: none;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  cursor: pointer;
+}
+
+div.search button:active {
+  background-color: rgb(70, 70, 70);
 }
 
 div.landing-pic {
